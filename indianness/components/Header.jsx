@@ -9,8 +9,7 @@ const navLinks = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/about-us" },
   { name: "Activities", path: "/activities" },
-
-  { name: "Contact", path: "/contact" },
+  { name: "Contact", path: "/contacts" },
 ];
 
 const Header = () => {
