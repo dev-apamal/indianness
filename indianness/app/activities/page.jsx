@@ -57,9 +57,70 @@ export default function Activities() {
             },
             {
               image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.46.51%E2%80%AFPM.png",
+              description:
+                "Renowned Writer Mr. C. Radhakrishnan and Celebrated Poet Mr. P.K. Gopi in the Literary Seminar conducted on 18th November 2005.",
+            },
+
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.41.42%E2%80%AFPM.png",
+              description:
+                "Dr.M.K.Muneer (Hon. Minister, Kerala) and Mr.K.Abubaker (Resident Editor, Malayala Manorama Daily) releasing books on the day of Building Inauguration.",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.41.57%E2%80%AFPM.png",
+              description:
+                "Visit of Prof. Gopichand Narang (President of Sahitya Academy)on 28th January 2004.",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.41.47%E2%80%AFPM.png",
+              description:
+                "Mr.Kaithapram Damodaran Namboothiri, Celebrated Poet reciting his own poem on the day of building Inauguration.",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.41.54%E2%80%AFPM.png",
+              description:
+                "Visit of Dr. Hamidullah Bhat (Director of National Council for Promotion of Urdu Language, Ministry of HRD) on 17th February 2004.",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.41.34%E2%80%AFPM.png",
+              description:
+                "Dr.Karan Singh (Hon. Member of Parliament, Chancellor of Jawahar Lal Nehru University, Chairman, ICCR and Former Union Minister) at the Academy on 14th May 2005.",
+            },
+            {
+              image:
                 "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/51mE0y18YkOGdhsPgUcAO7qCOM.png?updatedAt=1763106262332",
               description:
                 "Eminent historian Dr. M.G.S. Narayanan, along with Dr. M.K. Muneer, Dr. Fazal Ghafur, and Dr. M. Gangadharan, at the history seminar on 19 February 2006.",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.54.00%E2%80%AFPM.png",
+              description:
+                "Veteran Columnist & Former Member of Parliament Mr. Kuldip Nayar who had met Allama Iqbal, Speaking at the Academy on 26th Nov. 2006, during his third visit to Calicut in connection with the memory of the Poet of the East.",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.54.04%E2%80%AFPM.png",
+              description:
+                "Hon. Central Minister Mr. Jairam Ramesh visiting the Academy on 23rd March 2007.",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.53.55%E2%80%AFPM.png",
+              description:
+                "The Independence Day Celebrations of 15th August2007. Mr. P.Divakaran(Councillor, Kozhikode Corporation) hoisting the National Flag",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.53.50%E2%80%AFPM.png",
+              description:
+                "Dr. K.Moidu, hoisting the National Flag during the Republic Day Celebrations of 2007.",
             },
             {
               image:
@@ -72,6 +133,18 @@ export default function Activities() {
                 "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Vv3bKSfFmRlW3K3ZqRRmcsnY8w.png?updatedAt=1763106262321",
               description:
                 "Mr. B.R. Shetty received the translation of Stray Reflections, the Note Book of Allama Iqbal from Mr. M.T. Vasudevan Nair during the fifth anniversary of the academy.",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.55.57%E2%80%AFPM%201.png",
+              description:
+                "Mr. Pradeep Kumar M.L.A hoisting the National Flag during the Republic Day Celebrations on 26th January, 2008.",
+            },
+            {
+              image:
+                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.55.57%E2%80%AFPM.png",
+              description:
+                "Dr. M.K. Muneer, Former Minister of Kerala hoisting the National Flag during the Independence Day Celebrations on 15th August, 2008.",
             },
             {
               image:
@@ -150,12 +223,6 @@ export default function Activities() {
                 "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-14%20at%2010.42.49%E2%80%AFPM.png?updatedAt=1763140430462",
               description:
                 "Mr. M.K.Raghavan MP inaugurating the Nehru-Azad commemoration programme on 14th November 2016. Mr. C.Radhakrishnan, Adv. P.S.Sreedharan Pillai and Mr. Balachandran Vadakkedath spoke. Mr. Babu Parasseri (President, District Panchayath) presided.",
-            },
-            {
-              image:
-                "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-14%20at%2010.42.55%E2%80%AFPM.png?updatedAt=1763140430537",
-              description:
-                "The Director delivering Maulana Azad commemoration speech on 22nd Feb. 2017 in connection with death anniversary of the Maulana.",
             },
           ].map((events, index) => (
             <div key={index} className="relative overflow-hidden group">

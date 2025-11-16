@@ -55,7 +55,20 @@ export default function ContactPage() {
       {/* LEFT — IMAGE */}
       <div className="flex-1 bg-[url('https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/BuildingContact.png')] bg-cover bg-center h-auto"></div>
 
-      <div className="flex-1 flex items-center justify-center px-4 sm:px-6 py-20">
+      <div className="flex-1 flex flex-col gap-6 items-center justify-center px-4 sm:px-6 py-20">
+        <div className="w-full max-w-lg bg-white p-6">
+          <h4 className="text-base text-left font-semibold text-foreground">
+            Office Address
+          </h4>
+          <p className="text-sm text-muted-foreground ">
+            Indianness Academy, Indianness Square, Calicut - 673004, Kerala,
+            India.
+          </p>
+          <p className="text-sm text-muted-foreground ">
+            1800 123 4567 | icirhtrust@gmail.com
+          </p>
+        </div>
+
         <div className="w-full max-w-lg bg-white p-6">
           <h3 className="text-lg text-left font-semibold text-foreground">
             Get in Touch
