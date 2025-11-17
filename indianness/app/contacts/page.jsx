@@ -51,9 +51,15 @@ export default function ContactPage() {
   }
 
   return (
-    <section className="w-full h-dvh bg-gray-100 flex flex-col lg:flex-row">
+    <section className="w-full  bg-gray-100 flex flex-col lg:flex-row">
       {/* LEFT — IMAGE */}
-      <div className="flex-1 bg-[url('https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/BuildingContact.png')] bg-cover bg-center h-auto"></div>
+      <div className="flex-1 ">
+        <img
+          src="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/BuildingContact.png"
+          alt="Office Building"
+          className="w-full h-full object-cover object-center"
+        />
+      </div>
 
       <div className="flex-1 flex flex-col gap-6 items-center justify-center px-4 sm:px-6 py-20">
         <div className="w-full max-w-lg bg-white p-6">
@@ -121,7 +127,7 @@ export default function ContactPage() {
               type="submit"
               className="w-full bg-black text-white py-3 hover:bg-gray-800 transition"
             >
-              Send Message
+              Submit
             </button>
           </form>
         </div>
