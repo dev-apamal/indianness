@@ -63,23 +63,17 @@ const Footer = () => {
 
           <div className="flex gap-6">
             <Link
-              href="/privacy"
-              className="text-foreground text-sm hover:underline hover:underline-offset-4"
+              href="https://www.termsfeed.com/live/1e0e4da0-b518-44b4-b82b-70052d779681"
+              className="text-foreground text-xs hover:underline hover:underline-offset-4"
             >
               Privacy Policy
             </Link>
-            <Link
-              href="/terms"
-              className="text-foreground text-sm hover:underline hover:underline-offset-4"
-            >
-              Terms of Service
-            </Link>
-            <Link
+            {/* <Link
               href="/cookies"
-              className="text-foreground text-sm hover:underline hover:underline-offset-4"
+              className="text-foreground text-xs hover:underline hover:underline-offset-4"
             >
               Cookies Settings
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
