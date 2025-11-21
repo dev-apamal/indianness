@@ -55,7 +55,7 @@ export default function ContactPage() {
       {/* LEFT — IMAGE */}
       <div className="flex-1 ">
         <img
-          src="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/BuildingContact.png"
+          src="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Building-Compressed.png"
           alt="Office Building"
           className="w-full h-full object-cover object-center"
         />

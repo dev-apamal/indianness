@@ -4,7 +4,7 @@ export default function Activities() {
   return (
     <section className="w-full bg-gray-100 text-center flex flex-col items-center justify-center py-40 px-4 sm:px-6">
       <div className="container mx-auto flex flex-col items-center space-y-4 max-w-4xl">
-        <p className="text-base sm:text-base md:text-base text-muted-foreground">
+        <p className="text-base sm:text-base md:text-base text-red-700">
           Highlights of our Journey
         </p>
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-tight">

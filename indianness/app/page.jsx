@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-
       {/* Quotes */}
       <section className="w-full bg-black text-center flex items-center justify-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20 flex flex-col items-center space-y-4 max-w-4xl">
@@ -17,30 +16,27 @@ export default function Home() {
             whatever creed or class or province we belong.”
           </h1>
           {/* Author */}
-          <p className="text-base text-muted-foreground">— Mahatma Gandhi</p>
+          <p className="text-base text-white">— Mahatma Gandhi</p>
         </div>
       </section>
-
       {/* About Us */}
       <section className="w-full bg-background text-center flex flex-col items-center justify-center py-20 px-4 sm:px-6">
         <div className="container mx-auto flex flex-col items-center space-y-4 max-w-4xl">
           {/* Quote */}
-          <p className="text-base sm:text-base md:text-base text-muted-foreground">
-            About Us
-          </p>
+          <p className="text-base text-red-700">About Us</p>
           <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-tight">
             A Vision Rooted in Values, Mission Inspired by Heritage.
           </h1>
           {/* Author */}
-          <p className="text-base sm:text-base md:text-base text-muted-foreground">
+          <p className="text-base text-muted-foreground">
             The Indianness Academy was born out of a profound commitment to
             revive the ethical and spiritual compass of the nation. Under the
             aegis of a dedicated Trust, the Academy stands as a beacon for those
-            who believe in the transformative power of India’s civilisational
+            who believe in the transformative power of India’s civilizational
             wisdom. At its heart, the Academy seeks to rekindle the eternal
             values of humaneness, patriotism, and national integration, and to
             channel the collective consciousness towards a society marked by
-            communal harmony, secular ideals, and ethical responsibility.
+            communitarian harmony, secular ideals, and ethical responsibility.
           </p>
         </div>
         <div className="container mx-auto px-4 sm:px-6 flex flex-col items-center space-y-4 max-w-6xl">
@@ -51,7 +47,7 @@ export default function Home() {
       {/* Guests & Collaborators */}
       <section className="w-full bg-gray-100 text-center flex flex-col items-center justify-center py-20 px-4 sm:px-6">
         <div className="container mx-auto flex flex-col items-center space-y-4 max-w-4xl">
-          <p className="text-base sm:text-base md:text-base text-muted-foreground">
+          <p className="text-base sm:text-base md:text-base text-red-700">
             Honoured Guests & Collaborators
           </p>
           <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-tight">
@@ -114,3 +110,5 @@ export default function Home() {
     </>
   );
 }
+
+// Add Map & Real Photo - Home Page

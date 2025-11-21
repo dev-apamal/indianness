@@ -20,7 +20,9 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="mb-1 text-sm text-foreground">Address</h3>
+              <h3 className="mb-1 text-sm font-medium text-foreground">
+                Address
+              </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Indianness Academy, Indianness Square, Calicut - 673004, Kerala,
                 India.
@@ -28,7 +30,9 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="mb-1 text-foreground text-sm">Contact</h3>
+              <h3 className="mb-1 text-foreground font-medium  text-sm">
+                Contact
+              </h3>
               <p className="text-muted-foreground text-sm">1800 123 4567</p>
               <p className="text-muted-foreground text-sm">
                 icirhtrust@gmail.com
@@ -39,7 +43,9 @@ const Footer = () => {
           {/* Right Column - Owned by section */}
           <div className="flex flex-col  md:text-left">
             <div>
-              <h3 className="mb-2 text-foreground text-sm">Owned & Run by</h3>
+              <h3 className="mb-2 text-foreground text-sm font-medium ">
+                Owned & Run by
+              </h3>
               <Image
                 src="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/ICIRH_LOGO.JPG?updatedAt=1760508906102"
                 alt="ICIRH Logo"

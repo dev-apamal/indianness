@@ -110,12 +110,6 @@ export const eventsData = [
   },
   {
     image:
-      "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Vv3bKSfFmRlW3K3ZqRRmcsnY8w.png?updatedAt=1763106262321",
-    description:
-      "Mr. B.R. Shetty received the translation of Stray Reflections, the Note Book of Allama Iqbal from Mr. M.T. Vasudevan Nair during the fifth anniversary of the academy.",
-  },
-  {
-    image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-16%20at%2012.55.57%E2%80%AFPM%201.png",
     description:
       "Mr. Pradeep Kumar M.L.A hoisting the National Flag during the Republic Day Celebrations on 26th January, 2008.",
@@ -209,12 +203,6 @@ export const eventsData = [
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/sdads_5582mlB7C?updatedAt=1763140295125",
     description:
       "Mr. K. Sankaranarayanan, Hon. Former Governer of Maharashtra Inaugurating the Quit India Day Programme on 9h August 2016. Adv. P.S. Sreedharanpillai, Mr. C.P. Saidalavi, Adv. T. Siddiq and Adv. P.V. Mohanlal participated",
-  },
-  {
-    image:
-      "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Events/Screenshot%202025-11-14%20at%2010.39.58%E2%80%AFPM.png?updatedAt=1763140253067",
-    description:
-      "Dr. K.S. Radhakrishnan (Chairman, PSC) inaugurating Gandhismriti-2016 on 1st October 2016. Mr. P.K.Gopi, Mr. A. Sajeevan, Yogacharya M. Surendranath also participated.",
   },
   {
     image:

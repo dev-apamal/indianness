@@ -36,6 +36,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+p,
+body {
+  font-family: var(--font-body);
+}
+
 /* New Additions */
 /* app/globals.css or styles/globals.css */
 @keyframes scroll {

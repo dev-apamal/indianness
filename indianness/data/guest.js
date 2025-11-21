@@ -1,25 +1,25 @@
 export const guestData = [
   {
     name: "Kapil Sibal",
-    position: "Renowned jurist and parliamentarian",
+    position: "Renowned Jurist and Parliamentarian",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/Kapil%20Sibal.jpg?updatedAt=1762951114493",
   },
   {
     name: "Karan Singh",
-    position: "Eminent scholar, philosopher, and statesman",
+    position: "Eminent Scholar, Philosopher, and Statesman",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/Kara%20Singh.jpg?updatedAt=1762951112475",
   },
   {
     name: "Jairam Ramesh",
-    position: "Chief Guest",
+    position: "Former Union Minister and Parliamentarian",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/Jairam%20Ramesh.jpg?updatedAt=1762951180527",
   },
   {
     name: "Shashi Tharoor",
-    position: "Chief Guest",
+    position: "Parliamentarian, Writer and Intellectual",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/Shashi%20Tharoor.jpg?updatedAt=1762951228373",
   },
@@ -31,37 +31,37 @@ export const guestData = [
   },
   {
     name: "Raj Babbar",
-    position: "Veteran actor and Member of Parliament",
+    position: "Veteran Actor and Member of Parliament",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/Raj%20Babbar_KWlCYSNF0?updatedAt=1762952852360",
   },
   {
     name: "Dr K Sankranarayanan",
-    position: "Chief Guest",
+    position: "Former Governor of Maharashtra",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/Dr%20K%20Sankranarayanan.jpg?updatedAt=1762951109268",
   },
   {
     name: "MT Vasudevan Nair",
-    position: "Jnanpith Laureate and literary stalwart",
+    position: "Jnanpith Laureate and Literary Stalwart",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/MT(1).jpg?updatedAt=1763096950784",
   },
   {
     name: "Kuldip Nayar",
-    position: "Iconic journalist and political thinker",
+    position: "Iconic Journalist and Political Thinker",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/Kuldip_Nayar.jpg?updatedAt=1762951207192",
   },
   {
     name: "Shamsur Rahman Faruqi",
-    position: "Literary theorist and critic",
+    position: "Literary Theorist and Critic",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/shamsur_ZcWIqg852?updatedAt=1762968429918",
   },
   {
     name: "Ali Sardar Jafri",
-    position: "Celebrated Urdu poet and cultural activis",
+    position: "Celebrated Urdu Poet and Cultural Activist",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/alisardarjafri.jpg?updatedAt=1763097247517",
   },
@@ -73,20 +73,24 @@ export const guestData = [
   },
   {
     name: "Sukumar Azhikode",
-    position: "Respected public intellectuals and cultural figures",
+    position: "Former Chairman of National Book Trust and Orator",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/Sukumar%20Azhikode.jpg?updatedAt=1762951114294",
   },
   {
     name: "P Jayachandran",
-    position: "Chief Guest",
+    position: "Renowned Playback Singer",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/P%20Jayachandran.jpg?updatedAt=1762951113521",
   },
   {
     name: "Kaithapram Damodaran Namboothiri",
-    position: "Chief Guest",
+    position: "Renowned Lyricist, Singer and Poet",
     image:
       "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Guests/Kaithapram%20Damodaran%20NamboothiriEdited.jpg?updatedAt=1762951109270",
   },
 ];
+
+// Oomen Chandy - Former Chief Minister of Kerala
+// Karthikeyan - Former Speaker of Kerala Legislative Assembly
+// Veerendra Kumar - Former Union Minister and Parliamentarian

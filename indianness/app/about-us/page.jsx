@@ -17,12 +17,12 @@ export default function About() {
     <>
       <section
         className="w-full bg-background h-dvh text-center flex flex-col items-center justify-center py-20 sm:py-20 px-4 sm:px-6 
-  bg-[url('https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Building%20About%20Us?updatedAt=1763204486966')] bg-cover bg-center bg-no-repeat"
+  bg-[url('https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/aboutusBuilding.png')] bg-cover bg-center bg-no-repeat"
       ></section>
       {/* Mission */}
       <section className="w-full bg-background text-center flex flex-col items-center justify-center py-20 px-4 sm:px-6">
         <div className="container mx-auto flex flex-col items-center space-y-4 max-w-4xl">
-          <p className="text-base sm:text-base md:text-base text-muted-foreground">
+          <p className="text-base sm:text-base md:text-base text-red-700">
             Our Mission
           </p>
           <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-tight">
@@ -41,8 +41,8 @@ export default function About() {
                 Nurture Values
               </h3>
               <p className="text-base text-left text-gray-600 leading-relaxed">
-                Promote humaneness, patriotism, ethics, and the timeless
-                principles that guide moral living.
+                Promote humaneness, patriotism, pluralism, ethics, and the
+                timeless principles that guide moral living.
               </p>
             </article>
 
@@ -57,7 +57,7 @@ export default function About() {
               </h3>
               <p className="text-base text-left text-gray-600 leading-relaxed">
                 Encourage national integration, communal harmony, secularism,
-                and pluralistic coexistence.
+                and peaceful coexistence.
               </p>
             </article>
 
@@ -71,8 +71,8 @@ export default function About() {
                 Preserve Heritage
               </h3>
               <p className="text-base text-left text-gray-600 leading-relaxed">
-                Revive India’s freedom struggle, celebrate its contributions to
-                world peace, and support initiatives.
+                Promote studies and academic pursuits to enlive and empower
+                India's cultural heritage and traditions in art and literature.
               </p>
             </article>
           </div>
@@ -83,9 +83,7 @@ export default function About() {
         <div className="container mx-auto max-w-6xl flex flex-col md:flex-row md:items-center gap-10">
           {/* Left Content */}
           <div className="flex-1 flex flex-col items-start space-y-4">
-            <p className="text-base text-muted-foreground">
-              Chairman's Message
-            </p>
+            <p className="text-base text-red-700">Chairman's Message</p>
             <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-tight">
               Leading with Vision and Purpose.
             </h1>
@@ -103,7 +101,7 @@ export default function About() {
             </p>
             <div className="space-y-1">
               <p className="text-base text-foreground text-left">
-                M. P. Abdussamad Samadani
+                Dr. M.P. Abdussamad Samadani
               </p>
               <p className="text-base text-muted-foreground text-left">
                 Chairman, ICIRH Trust & Member of Parliament, Lok Sabha
@@ -128,11 +126,11 @@ export default function About() {
       {/* Our Initiatives */}
       <section className="w-full bg-gray-100 text-center flex flex-col items-center justify-center py-20 px-4 sm:px-6">
         <div className="container mx-auto flex flex-col items-center space-y-4 max-w-4xl">
-          <p className="text-base sm:text-base md:text-base text-muted-foreground">
+          <p className="text-base sm:text-base md:text-base text-red-700">
             Our Initiatives
           </p>
           <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-tight">
-            Living Culture, Breathing Knowledge, Inspiring Action.
+            Living Culture, Breathing Knowledge & Inspiring Wisdom.
           </h1>
           <p className="text-base sm:text-base md:text-base text-muted-foreground">
             The Indianness Academy curates and hosts a diverse tapestry of
@@ -153,8 +151,8 @@ export default function About() {
               </h3>
               <p className="text-base text-left text-gray-600 leading-relaxed">
                 Marking Independence Day, Republic Day, Gandhi Jayanti, and
-                other significant milestones with solemnity, reflection, and
-                patriotic fervour.
+                other significant milestones of our national life with
+                solemnity, reflection, and patriotic fervour.
               </p>
             </article>
 
@@ -168,8 +166,8 @@ export default function About() {
                 Cultural Festivals
               </h3>
               <p className="text-base text-left text-gray-600 leading-relaxed">
-                Celebrating the ethos of India through Onam, Vishu, and other
-                regional festivals that showcase the pluralistic beauty of our
+                Celebrating the ethos of India through national and regional
+                festivals that showcase the pluralistic depth and beauty of our
                 traditions.
               </p>
             </article>
@@ -181,7 +179,7 @@ export default function About() {
               </div>
 
               <h3 className="text-lg text-left font-semibold text-foreground mt-30 mb-1">
-                Artistic Showcases
+                Artistic Expressions
               </h3>
               <p className="text-base text-left text-gray-600 leading-relaxed">
                 Offering a platform for traditional and modern artistic

@@ -12,13 +12,13 @@ const Hero = () => {
           {/* Description */}
           <p className="text-base sm:text-base md:text-base text-muted-foreground max-w-4xl">
             The Indianness Academy, a non-profit institution, is rooted in
-            humaneness, unity, and cultural integrity. Dedicated to reviving
-            Indian heritage, it upholds patriotism, secularism, and ethical
-            living while fostering intellectual, cultural, and academic growth.
-            Through seminars, programs, and national celebrations, the Academy
-            inspires dialogue and action for integration, harmony, and
-            pluralism—celebrating India’s freedom movement, literary traditions,
-            and vision of peaceful coexistence.
+            humaneness, unity, cultural heritage and literary traditions.
+            Dedicated to reviving Indian heritage, it upholds patriotism,
+            secularism, and ethical living while fostering intellectual,
+            cultural, and academic growth. Through seminars, programs, and
+            national celebrations, the Academy inspires dialogue for
+            integration, harmony, and pluralism—celebrating India’s freedom
+            movement, literary traditions, and vision of peaceful coexistence.
           </p>
         </div>
       </div>
