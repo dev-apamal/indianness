@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
         <Preloader
           minDuration={3500}
           logoSrc="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Indianness%20Academy%20LOGO%202021.png?updatedAt=1759219577250"
-          portraitSrc="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/mtv.png"
+          portraitSrc="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/MT.png"
           quote={`I never imagined this institution would achieve such remarkable progress. The first time I saw this building, I was overcome with a sense of cultural pride. It reminded me of the feeling I had when I passed through Subrahmanya Bharati Street in New Delhi and Shakespeare Street in Calcutta. I salute this magnificent building, a symbol of India's national glory and greatness.`}
           quoteAuthor="MT Vasudevan Nair"
           background="bg-white"
@@ -52,5 +52,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-// https://www.instagram.com/p/DECXVXqxxRh/

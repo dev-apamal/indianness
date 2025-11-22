@@ -111,4 +111,6 @@ export default function Home() {
   );
 }
 
-// Add Map & Real Photo - Home Page
+//Add Map & Real Photo - Home Page
+//Option - Home Page - Photo, Right above about us
+//Preloader - Try building or painting

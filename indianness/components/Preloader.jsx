@@ -17,7 +17,7 @@ export default function Preloader({
   quote = `I never imagined this institution would achieve such remarkable progress...`,
   quoteAuthor = "MT Vasudevan Nair",
   background = "bg-white",
-  oncePerSession = true,
+  oncePerSession = false,
 }) {
   const [visible, setVisible] = useState(true); // whether to render
   const [fade, setFade] = useState(false); // fade-out class
@@ -100,55 +100,28 @@ export default function Preloader({
       }`}
     >
       <div className="w-full max-w-7xl mx-auto">
-        {/* logo centered */}
-        <div className="flex justify-center mb-8">
-          {logoSrc ? (
-            <img
-              src={logoSrc}
-              alt="Indianness Academy logo"
-              className="h-12 object-contain"
-            />
-          ) : (
-            <svg width="220" height="48" viewBox="0 0 220 48" aria-hidden>
-              <text
-                x="0"
-                y="34"
-                fill={maroon}
-                fontFamily="serif"
-                fontSize="30"
-                fontWeight="700"
-              >
-                INDIANNESS
-              </text>
-              <text
-                x="0"
-                y="48"
-                fill={maroon}
-                fontFamily="serif"
-                fontSize="14"
-                fontWeight="600"
-              >
-                ACADEMY
-              </text>
-            </svg>
-          )}
-        </div>
-
-        {/* layout: stacked on mobile, two-column on md+ */}
         <div>
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
             <div className="order-2 md:order-1 md:w-1/2 flex justify-center md:justify-start">
               <img
                 src={portraitSrc}
-                alt=""
+                alt="MT Vasudevan Nair"
                 aria-hidden="true"
                 className="block max-w-full w-64 sm:w-80 md:w-auto object-contain"
-                style={{ maxHeight: "520px", objectFit: "contain" }}
+                style={{ maxHeight: "800px", objectFit: "contain" }}
               />
             </div>
 
             <div className="order-1 md:order-2 md:w-1/2">
-              <div className="px-4 md:px-0">
+              <div className="flex justify-start mb-8">
+                <img
+                  src={logoSrc}
+                  alt="Indianness Academy logo"
+                  className="h-12 object-contain"
+                />
+              </div>
+              {/* <div className="px-4 md:px-0"> */}
+              <div className="">
                 <blockquote className="text-left">
                   <p
                     className="text-2xl sm:text-2xl md:text-2xl lg:text-3xl leading-relaxed text-gray-900"
@@ -165,34 +138,34 @@ export default function Preloader({
                   {quoteAuthor}
                 </p>
               </div>
+              <div className="flex items-center justify-start mt-8">
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 animate-spin">
+                    <svg viewBox="0 0 24 24" className="w-full h-full">
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="9"
+                        stroke="#e5e7eb"
+                        strokeWidth="2.5"
+                        fill="none"
+                      />
+                      <path
+                        d="M21 12a9 9 0 0 0-9-9"
+                        stroke="#111827"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </div>
+                  <span className="text-gray-600">Loading…</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         {/* loader */}
-        <div className="flex items-center justify-center mt-8">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 animate-spin">
-              <svg viewBox="0 0 24 24" className="w-full h-full">
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="9"
-                  stroke="#e5e7eb"
-                  strokeWidth="2.5"
-                  fill="none"
-                />
-                <path
-                  d="M21 12a9 9 0 0 0-9-9"
-                  stroke="#111827"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </div>
-            <span className="text-gray-600">Loading…</span>
-          </div>
-        </div>
       </div>
     </div>
   );
