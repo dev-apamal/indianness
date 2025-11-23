@@ -11,7 +11,7 @@ import { useEffect, useRef, useState } from "react";
  * - oncePerSession (boolean) — default true
  */
 export default function Preloader({
-  minDuration = 3500,
+  minDuration = 8000,
   logoSrc = "/logo.svg",
   portraitSrc = "/portrait-sketch.jpg",
   quote = `I never imagined this institution would achieve such remarkable progress...`,
