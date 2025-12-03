@@ -39,11 +39,11 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${dmSans.variable} antialiased`}
       >
         <Preloader
-          minDuration={10000}
+          minDuration={3500}
           logoSrc="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/Indianness%20Academy%20LOGO%202021.png?updatedAt=1759219577250"
-          portraitSrc="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/MT.png"
-          quote={`I never imagined this institution would achieve such remarkable progress. The first time I saw this building, I was overcome with a sense of cultural pride. It reminded me of the feeling I had when I passed through Subrahmanya Bharati Street in New Delhi and Shakespeare Street in Calcutta. I salute this magnificent building, a symbol of India's national glory and greatness.`}
-          quoteAuthor="MT Vasudevan Nair"
+          portraitSrc="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/mgandhi%201.png"
+          quote={`All of us are Indians first and last. Wherever we live and to whatever creed or class or province we belong.`}
+          quoteAuthor="Mahatma Gandhi"
           background="bg-white"
         />
         {/* <SplashScreen /> */}
@@ -54,3 +54,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+//  portraitSrc="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/MT.png"

@@ -2,22 +2,33 @@ import Hero from "@/components/Hero";
 import { ScrollImages } from "@/components/ScrollImages";
 import { guestData } from "@/data/guest";
 import { homeImages } from "@/data/homeImages";
+import Image from "next/image";
 
 export default function Home() {
+  const testimonialBg =
+    "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/preloader-mt(1).png";
   return (
     <>
       <Hero />
       {/* Quotes */}
-      <section className="w-full bg-black text-center flex items-center justify-center">
+      {/* <section className="w-full bg-black text-center flex items-center justify-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20 flex flex-col items-center space-y-4 max-w-4xl">
-          {/* Quote */}
           <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white">
             “All of us are Indians first and last. Wherever we live and to
             whatever creed or class or province we belong.”
           </h1>
-          {/* Author */}
           <p className="text-base text-white">— Mahatma Gandhi</p>
         </div>
+      </section> */}
+
+      <section className="relative w-full aspect-1456/971">
+        <Image
+          src={testimonialBg}
+          alt="Testimonial Background"
+          fill
+          className="object-cover object-center"
+          priority
+        />
       </section>
       {/* About Us */}
       <section className="w-full bg-background text-center flex flex-col items-center justify-center py-20 px-4 sm:px-6">
@@ -83,7 +94,7 @@ export default function Home() {
         </div>
       </section>
       {/* Call to Action */}
-      <section className="w-full bg-black flex justify-center">
+      {/* <section className="w-full bg-black flex justify-center">
         <div
           className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20 max-w-4xl
           flex flex-col md:flex-row gap-4 md:gap-12 items-center md:items-start text-center md:text-left"
@@ -106,11 +117,46 @@ export default function Home() {
             let us celebrate the Indianness that unites us all.
           </p>
         </div>
+      </section> */}
+      <section className="w-full bg-white">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col items-center text-center space-y-6 py-12 md:py-20 lg:py-24">
+            {/* Heading */}
+            {/* Changed md:w-1/2 to max-w-2xl for better line wrapping on standard screens */}
+            <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-foreground">
+              Join the Journey.
+              <br />
+              Engage, Contribute, and Grow
+            </h1>
+
+            {/* Description */}
+            {/* Changed md:w-1/2 to max-w-3xl for better readability (approx 75 chars per line) */}
+            <p className="text-base text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              The Indianness Academy invites you to be a part of this noble
+              endeavour. Whether you are an academic, artist, student, or a
+              concerned citizen who believes in India’s pluralistic spirit, your
+              voice matters here.
+              <br />
+              <br />
+              Support us through your time, talents, or thoughts. Join our
+              events, collaborate with us, or simply stay connected as we
+              continue our mission of national renewal through cultural
+              awakening. Together, let us celebrate the Indianness that unites
+              us all.
+            </p>
+          </div>
+        </div>
+
+        {/* Image Container */}
+        <div className="w-full">
+          <img
+            src="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/cta2_r_c6vSk4s"
+            alt="People celebrating with the Indian flag in a patriotic watercolor illustration"
+            /* Added responsive heights (h-48 to h-[500px]) so the image doesn't become huge on large monitors */
+            className="w-full h-48 sm:h-64 md:h-96 lg:h-[500px] object-cover object-center"
+          />
+        </div>
       </section>
     </>
   );
 }
-
-//Add Map & Real Photo - Home Page
-//Option - Home Page - Photo, Right above about us
-//Preloader - Try building or painting

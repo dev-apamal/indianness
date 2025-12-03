@@ -14,8 +14,8 @@ export default function Preloader({
   minDuration = 8000,
   logoSrc = "/logo.svg",
   portraitSrc = "/portrait-sketch.jpg",
-  quote = `I never imagined this institution would achieve such remarkable progress...`,
-  quoteAuthor = "MT Vasudevan Nair",
+  quote = `All of us are Indians first and last. Wherever we live and to whatever creed or class or province we belong.`,
+  quoteAuthor = "Mahatma Gandhi",
   background = "bg-white",
   oncePerSession = false,
 }) {
@@ -101,14 +101,14 @@ export default function Preloader({
     >
       <div className="w-full max-w-7xl mx-auto">
         <div>
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8">
             <div className="order-2 md:order-1 md:w-1/2 flex justify-center md:justify-start">
               <img
                 src={portraitSrc}
-                alt="MT Vasudevan Nair"
+                alt="Mahatma Gandhi"
                 aria-hidden="true"
                 className="block max-w-full w-64 sm:w-80 md:w-auto object-contain"
-                style={{ maxHeight: "800px", objectFit: "contain" }}
+                style={{ maxHeight: "1280px", objectFit: "contain" }}
               />
             </div>
 
@@ -124,7 +124,7 @@ export default function Preloader({
               <div className="">
                 <blockquote className="text-left">
                   <p
-                    className="text-2xl sm:text-2xl md:text-2xl lg:text-3xl leading-relaxed text-gray-900"
+                    className="text-2xl leading-relaxed text-gray-900"
                     style={{ fontFamily: "Georgia, serif" }}
                   >
                     “{quote}”

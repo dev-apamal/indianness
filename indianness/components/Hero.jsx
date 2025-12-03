@@ -8,7 +8,6 @@ const Hero = () => {
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
             Welcome to the <br /> Indianness Academy
           </h1>
-
           {/* Description */}
           <p className="text-base sm:text-base md:text-base text-muted-foreground max-w-4xl">
             The Indianness Academy, a non-profit institution, is rooted in
@@ -25,7 +24,7 @@ const Hero = () => {
       {/* Hero Image - Full Width */}
       <div className="w-full">
         <img
-          src="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/indiancelebrationcompressed.png?updatedAt=1763096703663"
+          src="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/HeroCompressed-2.png"
           alt="People celebrating with the Indian flag in a patriotic watercolor illustration"
           className="w-full h-auto"
         />
