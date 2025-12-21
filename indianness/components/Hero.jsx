@@ -24,7 +24,7 @@ const Hero = () => {
       {/* Hero Image - Full Width */}
       <div className="w-full">
         <img
-          src="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/HeroCompressed-2.png"
+          src="https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/indiancelebrationcompressed.png?updatedAt=1763096703663"
           alt="People celebrating with the Indian flag in a patriotic watercolor illustration"
           className="w-full h-auto"
         />

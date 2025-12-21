@@ -1,3 +1,4 @@
+import HeritageSection from "@/components/HeritageSection";
 import Hero from "@/components/Hero";
 import { ScrollImages } from "@/components/ScrollImages";
 import { guestData } from "@/data/guest";
@@ -6,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
   const testimonialBg =
-    "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/preloader-mt(1).png";
+    "https://ik.imagekit.io/yqw45xwgd/IndianessAcademy/preloader(1).png?updatedAt=1766143734687";
   return (
     <>
       <Hero />
@@ -30,6 +31,7 @@ export default function Home() {
           priority
         />
       </section>
+      {/* <HeritageSection /> */}
       {/* About Us */}
       <section className="w-full bg-background text-center flex flex-col items-center justify-center py-20 px-4 sm:px-6">
         <div className="container mx-auto flex flex-col items-center space-y-4 max-w-4xl">
